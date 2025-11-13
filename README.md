@@ -3,6 +3,8 @@ _**Author: Ravi Raj**_
 
 This project implements a simplified food ordering platform with role-based access control (RBAC) and country-scoped permissions as described in the assignment. The application is built using a lightweight full-stack setup (Node.js/Express backend + React frontend) to keep the code easy to read and straightforward to review.
 
+<img width="1129" height="541" alt="Screenshot 2025-11-13 at 9 20 13 PM" src="https://github.com/user-attachments/assets/cb9941f6-43f6-4d37-8c95-6e52a9c8f296" />
+
 ## Features Implemented
 ### Core
 - View restaurants and their menus
