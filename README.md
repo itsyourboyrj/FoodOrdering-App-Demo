@@ -81,9 +81,9 @@ frontend/
 
 # Screenshots
 
-1. Login Screen
+1. Home Screen
 
-Shows the quick user selector used for simulating different roles (Admin, Manager, Member).
+    ![Home Screen](./assets/Screenshot 2025-11-13 at 9.20.13 PM.png)
 
 
 2. Restaurant List
