@@ -1,0 +1,131 @@
+:root{
+  --bg: #f6f8fb;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-2: #0ea5a4;
+  --danger: #ef4444;
+  --glass: rgba(255,255,255,0.6);
+  --radius: 12px;
+  --shadow: 0 6px 18px rgba(31,41,55,0.06);
+  --mono: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+* { box-sizing: border-box; }
+html,body,#root { height:100%; margin:0; background:var(--bg); font-family:var(--mono); color:#111827; }
+
+.app {
+  max-width:1100px;
+  margin:28px auto;
+  padding:22px;
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+}
+.title {
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+.logo {
+  width:46px;
+  height:46px;
+  border-radius:10px;
+  background:linear-gradient(135deg,var(--accent),var(--accent-2));
+  color:white;
+  display:grid;
+  place-items:center;
+  font-weight:700;
+  box-shadow:var(--shadow);
+}
+.h1 { margin:0; font-size:20px; letter-spacing:-0.2px; }
+.h1 small { display:block; font-size:12px; color:var(--muted); font-weight:500; }
+
+.controls {
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.layout {
+  display:grid;
+  grid-template-columns: 1fr 360px;
+  gap:18px;
+  align-items:start;
+}
+
+/* left column cards */
+.panel {
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:14px;
+  box-shadow:var(--shadow);
+}
+
+/* restaurants list */
+.rest-list { display:flex; flex-direction:column; gap:10px; }
+.rest-item {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #eef2ff;
+}
+.rest-item .meta { font-weight:600; }
+.rest-item small { color:var(--muted); margin-left:6px; font-weight:500; }
+
+/* menu */
+.menu { margin-top:12px; display:flex; flex-direction:column; gap:8px; }
+.menu-item {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px;
+  border-radius:8px;
+  border:1px dashed #f1f5f9;
+}
+
+/* cart on right */
+.side {
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.cart-items { display:flex; flex-direction:column; gap:8px; max-height:280px; overflow:auto; padding-right:6px; }
+.cart-row { display:flex; justify-content:space-between; gap:8px; padding:8px; border-radius:8px; background:linear-gradient(180deg, #fff, #fbfdff); border:1px solid #eef2ff; }
+
+/* buttons */
+.btn {
+  border:0;
+  padding:8px 12px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:600;
+}
+.btn-primary { background:var(--accent); color:white; box-shadow:0 6px 14px rgba(37,99,235,0.12); }
+.btn-ghost { background:transparent; color:var(--accent); border:1px solid rgba(37,99,235,0.08); }
+.btn-danger { background:var(--danger); color:white; }
+
+/* small helpers */
+.small { font-size:13px; color:var(--muted); }
+.pillar { display:flex; gap:8px; align-items:center; }
+.kv { font-weight:600; color:#111827; }
+
+.footer {
+  margin-top:18px;
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+}
+
+/* responsive */
+@media (max-width:900px){
+  .layout { grid-template-columns: 1fr; }
+  .side { order:2; }
+}
