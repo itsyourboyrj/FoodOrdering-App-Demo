@@ -83,35 +83,57 @@ frontend/
 
 1. Home Screen
 
-    ![Home Screen](./assets/Screenshot 2025-11-13 at 9.20.13 PM.png)
+<img width="1129" height="541" alt="Screenshot 2025-11-13 at 9 20 13 PM" src="https://github.com/user-attachments/assets/cb9941f6-43f6-4d37-8c95-6e52a9c8f296" />
+
 
 
 2. Restaurant List
 
-Users see only the restaurants they’re allowed to access (country-scoped for managers and members).
+<img width="684" height="185" alt="Screenshot 2025-11-13 at 9 20 40 PM" src="https://github.com/user-attachments/assets/d12ef54a-217a-4812-a690-1f5fdd415201" />
+
+
 
 
 3. Menu View
 
-Displays menu items for the selected restaurant, along with “Add to Cart” actions.
+<img width="679" height="292" alt="Screenshot 2025-11-13 at 9 20 49 PM" src="https://github.com/user-attachments/assets/6f692859-318b-43e0-a237-9071fffc9d14" />
+
+
 
 
 4. Cart & Order Creation
 
-Users can review items, remove items, and create orders.
+  **Cart**
+
+<img width="386" height="403" alt="Screenshot 2025-11-13 at 9 21 08 PM" src="https://github.com/user-attachments/assets/c19ff308-a721-4cea-91d0-7a9f60dba392" />
+
+  **Order Creation**
+  
+<img width="310" height="142" alt="Screenshot 2025-11-13 at 9 21 17 PM" src="https://github.com/user-attachments/assets/28894822-36cf-40b0-8b5e-50bf68003e5e" />
+
 
 
 5. Order Checkout (Admin/Manager Only)
 
-Checkout flow demonstrating payment simulation with saved payment methods.
+<img width="284" height="155" alt="Screenshot 2025-11-13 at 9 21 23 PM" src="https://github.com/user-attachments/assets/c3900a57-e135-4953-b043-c080e5c082f1" />
 
 
-6. Order List
+6. Visible Orders List
 
-Shows only the orders allowed for the logged-in user (country-scoped for non-admins).
+<img width="384" height="293" alt="Screenshot 2025-11-13 at 9 21 53 PM" src="https://github.com/user-attachments/assets/b5320cd3-0947-48e7-bc74-ecb99a3f056f" />
 
 
-7. Update Payment Method (Admin Only)
+7. Login Options & Logged in view
 
-Admin functionality to update stored payment methods for a user.
+<img width="433" height="246" alt="Screenshot 2025-11-13 at 9 20 20 PM" src="https://github.com/user-attachments/assets/b5babe3f-0f63-4639-ba02-09f3554c64d1" />
+
+
+**Logged IN VIEW**
+
+<img width="392" height="153" alt="Screenshot 2025-11-13 at 9 20 34 PM" src="https://github.com/user-attachments/assets/e1ca781e-442e-4013-9701-26b2b1da179f" />
+
+
+7. Order Cancellation
+
+<img width="327" height="186" alt="Screenshot 2025-11-13 at 9 21 46 PM" src="https://github.com/user-attachments/assets/5026ec2d-6e11-4b5f-a4d8-6a0b58f8d1bc" />
 
